@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+}
+.slider{
+ overflow: hidden;
+    position: relative;
+      width: 500px;
+  height: 333px;
+  transition: 500ms all;
+}
+img{
+  max-width: 500px;
+  margin: 5px;
+}
+.slider-list{
+  height: 334px;
+  width: 2000px;
+  transition: 500ms all;
+  position: relative;
+  display: flex;
+bottom: 0; 
+/* по 350 px */
+}
+.btn1{
+	display: inline-block;
+	border: 30px solid transparent; 
+	border-right: 30px solid orange;
+  margin-top: 160px;
+  cursor: pointer;
+
+}
+
+.btn2{
+  display: inline-block;
+	border: 30px solid transparent; 
+	border-left: 30px solid orange;
+  margin-top: 160px;
+  margin-left: 10px;
+  cursor: pointer;
+}
